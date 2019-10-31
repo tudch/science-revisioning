@@ -9,8 +9,9 @@ In openreview.net papers can be peer-reviewed. We try to match the review sugges
 3. The revisions are diff'ed and matched to the review that suggested that change. Matching is currently done by using the time stemp.
 
 # How to use it
+
 1. Run a science-parser server (see [science-parse server](https://github.com/allenai/science-parse/blob/master/server/README.md))
-2. execute jupyter-notebook TODO
+2. execute jupyter-notebook run-science-revisioning.ipynb
 
 # Future Work
 - Refine matching, by using e.g. keywords or more sophisticated NLP analysis
